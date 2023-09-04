@@ -1,0 +1,11 @@
+{
+  "name": "raycast-scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "open": "^9.1.0"
+  }
+}
