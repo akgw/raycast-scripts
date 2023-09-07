@@ -24,7 +24,7 @@ export default function Command() {
           date: item.date,
           title: item.title || "",
           link: item.link || "",
-          description: item.description,
+          description: item.content || "",
           imageUrl:
             parse(item["content:encoded"] || "")
               .querySelector("img.entry-image")
@@ -36,7 +36,7 @@ export default function Command() {
   }, []);
 
   return (
-    <Grid columns={10} inset={Grid.Inset.Small} filtering={false}>
+    <Grid columns={5} inset={Grid.Inset.Small} filtering={false}>
       {feedList.map((feed) => (
         <Grid.Item
           key={feed.link}
