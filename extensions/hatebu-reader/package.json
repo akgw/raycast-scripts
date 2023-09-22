@@ -1,7 +1,7 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "rss-reader",
-  "title": "Rss Reader",
+  "name": "hatebu-reader",
+  "title": "Hatebu Reader",
   "description": "Rss Reader only hatena bookmark",
   "icon": "icon.png",
   "author": "akgw",
@@ -12,9 +12,9 @@
   "commands": [
     {
       "name": "index",
-      "title": "Rss Reader",
+      "title": "Hatebu Reader",
       "description": "Rss Reader only hatena bookmark.",
-      "mode": "view"
+      "mode": "menu-bar"
     }
   ],
   "dependencies": {
@@ -22,10 +22,8 @@
     "@raycast/utils": "^1.9.0",
     "fuse.js": "^6.6.2",
     "ini": "^3.0.1",
-    "node-fetch": "^3.3.2",
     "node-html-parser": "^6.1.6",
     "rss-parser": "^3.13.0",
-    "rss-to-json": "^2.1.1",
     "simple-plist": "^1.4.0-0",
     "sql.js": "^1.8.0",
     "unique-objects": "^1.0.5"
